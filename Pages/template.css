@@ -29,6 +29,15 @@ h2{
 	float: right;
 }
 
+.block30{
+	width: 30%;
+}
+
+.block70{
+	width: 70%;
+}
+
+
 .block55{
 	width: 55%;
 	float: left;
@@ -204,6 +213,11 @@ ul.menu{
 
 .abstract h1{
     color: #707070;
+}
+
+.yeast-img{
+	background: url(http://2018.igem.org/wiki/images/b/b1/T--Tartu_TUIT--yeast.png) no-repeat right;
+	height: 500px;
 }
 	
 /*support classes*/
