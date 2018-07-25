@@ -9,6 +9,12 @@
 
 @import url('http://2018.igem.org/File:T--Tartu_TUIT--abel.ttf');
 
+* { 
+	margin: 0px 0px;
+	padding: 0px 0px;
+    font-family: Abel;
+  }
+
 h1{
 	font-size: 54px;
 }
