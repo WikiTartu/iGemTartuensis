@@ -1,0 +1,293 @@
+<html>
+
+<style>
+
+/*general styling*/
+/**************************************************************************************************************************************************************************************************/
+
+
+
+@import url('http://2018.igem.org/File:T--Tartu_TUIT--abel.ttf');
+
+h1{
+	font-size: 54px;
+}
+
+h2{
+	font-size: 36px;
+	color: black;
+
+}
+
+.half1{
+	width: 50%;
+	float: left;
+}
+
+.half1{
+	width: 50%;
+	float: right;
+}
+
+.block55{
+	width: 55%;
+	float: left;
+}
+
+.block45{
+	width: 45%;
+	float: right;
+}
+
+.logo-wiki{
+	padding: 20px;
+	height: 70px;
+	width: auto;
+}
+
+/**************************************************************************************************************************************************************************************************/
+/* DEFAULT WIKI SETTINGS */
+/**************************************************************************************************************************************************************************************************/
+
+
+	
+#home_logo, #sideMenu { display:none; }
+	#sideMenu, #top_title, .patrollink  {display:none;}
+	#content { margin-left:0px; margin-top:-7px; padding:0px; width:100%;}
+	body {background-color:white; }
+	#bodyContent h1, #bodyContent h2, #bodyContent h3, #bodyContent h4, #bodyContent h5 { margin-bottom: 0px; }
+
+	.judges-will-not-evaluate { border: 4px solid #e4dede; padding: 2% !important; width: 92%!important;}
+
+
+/**************************************************************************************************************************************************************************************************/
+/* MENU */
+/**************************************************************************************************************************************************************************************************/
+
+body{
+  font-family: Abel, sans-serif;
+  color: #707070;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-weight: lighter;
+  min-width: 940px;
+}
+
+.container{
+  max-width: 960px;
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Abel, sans-serif;
+}
+
+.logo-wiki{
+	padding: 20px;
+	height: 70px;
+	width: auto;
+}
+
+ul.menu{
+  display: block;
+  text-align: right;
+  margin: 0;
+  color: #707070;
+  font-weight: lighter;
+}
+
+.menu > li{
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 30px;
+}
+
+
+.home{
+	float: left;
+}
+
+.menu .home{
+	padding-left: 0;
+}
+
+.menu a{
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  vertical-align: middle;
+  color: black;
+  font-size: 20px;
+}
+
+.menu a:hover {
+    background-color: #ffd8af;
+    padding: 5px 10px;
+    border: 1px solid #707070;
+}
+
+.submenu1 {
+  display: none;
+  list-style: none;
+  position: absolute;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  background-color: #ffd8af;
+}
+
+
+.submenu1 a{
+	font-size: 18px;
+	border: none;
+}
+
+.menu li:hover .submenu1{
+  display: block;
+}
+
+.submenu1 a:hover {
+    border: none;
+    padding: 5px 10px;
+    color: white;
+}
+
+
+
+
+
+
+/*mobile menu bar styling*/
+/**************************************************************************************************************************************************************************************************/
+
+/**************************************************************************************************************************************************************************************************/
+/* CONTENT OF THE PAGE */
+/**************************************************************************************************************************************************************************************************/
+
+/********** MAIN PAGE **********/
+
+.main_picture{
+    margin-top: 20px;
+    height: 413px;
+    text-align: left;
+    background: url(http://2018.igem.org/wiki/images/b/bc/T--Tartu_TUIT--porphyra.png) no-repeat scroll top center;
+}
+
+
+.headspan{
+	text-align: left;
+}
+
+.headspan h1{
+	line-height: 50px;
+}
+
+.headspan p{
+	float: right;
+	padding: 30px 0 0 80px;
+	font-size: 26px;
+}
+
+/***Abstract**/
+
+.abstract{
+	margin-top: 20px;
+	text-align: left;
+}
+
+.abstract p{
+	margin-top: 20px;
+	font-size: 18px;
+	color: black;
+}
+
+.abstract h1{
+    color: #707070;
+}
+	
+/*support classes*/
+/**************************************************************************************************************************************************************************************************/
+
+
+/**************************************************************************************************************************************************************************************************/
+
+
+
+
+
+</style>
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--- THIS IS WHERE THE HTML BEGINS --->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<head> 
+
+	<!-- This tells the browser that your page is responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+</head>
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--- Menu --->
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="container">
+			<a href="http://2018.igem.org/Team:Tartu_TUIT" class="logo">
+				<img class="logo-wiki" src="http://2017.igem.org/wiki/images/d/d4/Tuit-logo.svg">
+			</a>
+		</div>
+		<div class="container menu">
+		<nav>
+			<ul class="menu">
+				<li class="home">
+					<a href="http://2018.igem.org/Team:Tartu_TUIT" class="active">home
+					</a>
+				</li>
+				<li><a href="team.html">team</a>
+					<ul class="submenu1">
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Team>team</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Collaborations>collaborations</a></li>
+						<li><a href=#>attribution&sponsors</a></li>
+					</ul>
+				</li>
+				<li><a href="project.html">project</a>
+					<ul class="submenu1">
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Description>abstract</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Design>design</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Experiments>experiments</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Notebook>notebook</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/InterLab>InterLab studies</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Results>results</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Safety>safety</a></li>
+						<li><a href=http://igem.org/2018_Judging_Form?team=Tartu_TUIT>judging form</a></li>
+					</ul>
+				</li>
+				<li><a href="parts.html">parts</a>
+					<ul class="submenu1">
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Parts>Parts Overview</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Basic_Part>Basic Parts</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Composite_Part>Composite part</a></li>
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Part_Collection>Part Collection</a></li>
+					</ul>
+				</li>
+				<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Modelling>modeling</a>
+				</li>
+				<li><a href="human_practices.html">human practices</a>
+					<ul class="submenu1">
+				
+						<li><a href=http://2018.igem.org/Team:Tartu_TUIT/Public_Engagement>Education & Engagement</a></li>
+					</ul></li>
+				</ul>
+			 </nav>
+		</div>
+
+
+
+
+</div>
+
+
