@@ -54,6 +54,17 @@ h2{
 	width: auto;
 }
 
+.footer{
+	text-align: center;
+}
+	
+	.links{
+		display: inline-block;
+	}
+	
+	.link-logo{
+		height: 30px;
+	}
 /**************************************************************************************************************************************************************************************************/
 /* DEFAULT WIKI SETTINGS */
 /**************************************************************************************************************************************************************************************************/
@@ -299,6 +310,17 @@ ul.menu{
 			 </nav>
 		</div>
 
+		<footer>
+			<div class="conitaner footer">
+				<a href="https://www.instagram.com/igemestonia/" class="links">
+					<img src="http://2018.igem.org/wiki/images/0/00/T--Tartu_TUIT--instagram.png" class="link-logo">
+				</a>
+				<a href="https://www.facebook.com/iGEMEST/" class="links">
+					<img src="http://2018.igem.org/wiki/images/0/0d/T--Tartu_TUIT--facebook.png" class="link-logo">
+				</a>
+			</div>
+		</footer>
+			
 
 
 
